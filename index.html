@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Web Calcualtor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Find the total</h1>
+    </div>
+
+    <div class="header">
+        <h2>Place a number in each field to find the total</h2>
+    </div>
+
+    <div id="inputs">
+        <input class="field" id="number1" type="number" placeholder="first number">
+        <select id="symbol" onchange="symbolChange()">
+            <option value=""></option>
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input class="field" id="number2" type="number" placeholder="second number">
+    </div>
+
+    <div>
+        <button onclick="total()" class="button" id="calculate">CALCULATE</button>
+    </div>
+
+    <div class="header">
+        <h3 id="answer"></h3>
+    </div>
+</body>
+
+</html>

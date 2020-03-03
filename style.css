@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat';
+    background-color: rgba(197, 199, 199, .5);
+}
+
+.header {
+    margin: auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+#inputs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 50%;
+    text-align: center;
+}
+
+.field {
+    height: 20px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.button {
+    height: 25px;
+    width: 125px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    
+}
